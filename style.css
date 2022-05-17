@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --color-primary: #006241;
+    --color-secondary: #d50032;
+    --color-others: #d4e9e2;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+
+}
+a{
+    color: #000;
+}
+p{
+    margin: 5px 0;
+}
+
+/*NAVBAR*/
+.navbar{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar li{
+    margin: 0px 15px;
+    font-weight: bold;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-nav-mrg{
+    flex: 1;
+    padding-left: 20px;
+}
+.navbar-nav-mrg a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar-nav-mrg a:hover{
+    color: #006241;
+}
+.navbar-nav-mrg li{
+    list-style: none;
+}
+.navbar-nav-others li{
+    list-style: none;
+}
+.navbar-nav-others a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar-logo img{
+    width: 50px;
+    height: auto;
+}
+.navbar-nav-others img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.btn-white{
+border-radius: 20px;
+padding: 5px 10px;
+background-color: #fff;
+cursor: pointer;
+}
+.btn-dark{
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+}
