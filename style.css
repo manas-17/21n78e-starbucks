@@ -2,9 +2,10 @@
 
 :root {
     --color-primary: #006241;
-    --color-secondary: #d50032;
+    --color-actual: #1e3932;
+    --color-secondary: #f06464;
+    --color-tertiary: #9bf5b4;
     --color-others: #d4e9e2;
-
 }
 *{
     margin: 0;
@@ -51,9 +52,10 @@ p{
 .navbar-nav-mrg a{
     text-decoration: none;
     color: #000;
+    text-transform: uppercase;
 }
 .navbar-nav-mrg a:hover{
-    color: #006241;
+    color: var(--color-primary)
 }
 .navbar-nav-mrg li{
     list-style: none;
@@ -77,13 +79,58 @@ p{
 .btn-white{
 border-radius: 20px;
 padding: 5px 10px;
-background-color: #fff;
+background-color:transparent;
 cursor: pointer;
 }
+.btn-white:hover{
+    background-color: rgb(237, 237, 237);
+}
+.btn-white-1{
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color:transparent;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
+    }
+    .btn-white-1:hover{
+        background-color: #1e312b;
+    }
 .btn-dark{
     cursor: pointer;
     border-radius: 20px;
     padding: 5px 10px;
     background-color: #000;
     color: #fff;
+}
+.btn-dark:hover{
+    background-color: rgb(44, 44, 44);
+}
+hr { 
+    padding: 0;
+    border: none; 
+    border-top: medium double #8c8c8c; 
+    color: #8c8c8c; 
+}
+img{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    padding: 30px 40px;
+}
+.outer{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: var(--color-actual);
+    color: #fff;
+}
+.inner-left{
+    flex: 1;
+    width: 50%;
+}
+.inner-right{
+    width: 50%;
 }
