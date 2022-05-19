@@ -87,15 +87,43 @@ cursor: pointer;
 }
 .btn-white-1{
     border-radius: 20px;
-    padding: 5px 10px;
+    padding: 7px 13px;
     background-color:transparent;
     cursor: pointer;
     color: #fff;
     border: 1px solid #fff;
+    font-weight: bold;
+    font-size: 16px;
     }
     .btn-white-1:hover{
         background-color: #1e312b;
     }
+    .btn-white-2{
+        border-radius: 20px;
+        padding: 7px 13px;
+        background-color:transparent;
+        cursor: pointer;
+        color: #fff;
+        border: 1px solid #fff;
+        font-weight: bold;
+        font-size: 16px;
+        }
+        .btn-white-2:hover{
+            background-color: #dd7c7c;
+        }
+        .btn-white-3{
+            border-radius: 20px;
+            padding: 7px 13px;
+            background-color:transparent;
+            cursor: pointer;
+            color: var(--color-actual);
+            border: 1px solid var(--color-actual);
+            font-weight: bold;
+            font-size: 16px;
+            }
+            .btn-white-3:hover{
+                background-color: #87d99f;
+            }
 .btn-dark{
     cursor: pointer;
     border-radius: 20px;
@@ -118,7 +146,11 @@ img{
     margin: 0;
 }
 .main{
-    padding: 30px 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+
 }
 .outer{
     padding: 0;
@@ -133,4 +165,52 @@ img{
 }
 .inner-right{
     width: 50%;
+    margin: auto ;
+    text-align: center;
+    
+    font-size: 20px;
+}
+.outer-1{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: var(--color-secondary);
+    color: #fff;
+}
+.inner-left-1{
+   padding: 90px;
+    width: 50%;
+    margin: auto ;
+    text-align: center;
+    font-size: 20px;
+}
+.inner-right-1{
+    flex: 1;
+    width: 50%; 
+}
+.cold-brew{
+    font-size: 54px;
+    font-weight: 900;
+    
+}
+.cold-brew-desc{
+    font-size: 24px;
+}
+.outer-2{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: var(--color-tertiary);
+    color : var(var(--color-actual));
+}
+.inner-right-2{
+   padding: 90px;
+    width: 50%;
+    margin: auto ;
+    text-align: center;
+    font-size: 20px;
+}
+.inner-left-2{
+    flex: 1;
+    width: 50%; 
 }
